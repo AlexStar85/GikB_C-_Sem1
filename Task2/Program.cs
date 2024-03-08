@@ -5,5 +5,11 @@
 // 4 => -4, -3, -2, -1, 0, 1, 2, 3, 4
 // 2 => -2, -1, 0, 1, 2
 
-Console.WriteLine("Введите целое число N: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите целое положительное число n: ");
+int n = Convert.ToInt32(Console.ReadLine());
+int count = -n;
+while (count <= n) ;
+{
+    Console.Write(count + " ");
+    count = count + 1;
+}
